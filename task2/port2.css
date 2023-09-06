@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(yiqun-tang-3o7O_6fi7Qc-unsplash.jpg);
+}
+
+header {
+    background-image: url(juho-luomala-K2AWz4lXrAM-unsplash.jpg);
+    color: lavenderblush;
+    text-decoration-color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 38px;
+}
+
+header p {
+    font-size: 25px;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: antiquewhite;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section img {
+    background-image: url(e.jpg);
+    max-width:15%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.project {
+    margin-top: 30px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}

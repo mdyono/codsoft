@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(milky-way-2695569_1280.jpg);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    width: 300px;
+    background-image: url(triangles-1430105_1280.webp);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.screen {
+    text-align: right;
+    padding: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    border: color;
+    outline: none;
+    font-size: 24px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 10px;
+}
+
+button {
+    font-size: 24px;
+    padding: 10px;
+    background-color: aqua;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.operator {
+    background-color: #f0f0f0;
+}
